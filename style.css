@@ -16,25 +16,41 @@ legend {
     display: none;
 }
 
-header{
-  width: 100%;
-  text-align:center;
-  background-color: #8CE0D5;
+.page{
+  height: 100vh;
 }
 
+#front-page{
+  background-color: #8CE0D5;
+  color: white;
+  text-align:center;
+}
+
+#specialities{
+  background-color: red;
+}
+
+#contact{
+  background-color: blue;
+}
+
+h1{
+  height: 25vh;
+}
+
+h2{
+  color: #3BA394;
+  height: 20vh;
+}
 #logo img{
-  width: 25%;
+  height: 25vh;
 }
 
 #picture-profile img{
   border-radius: 50%;
-  width: 25%;
+  height: 25vh;
 }
 
-h1{
-  font-size: 65px;
-  line-height: 1.2em;
-  border-bottom: #CCC solid 1px;
-  padding: 20px 0;
-  color: white;
+#name-profile{
+  color: #3BA394;
 }
