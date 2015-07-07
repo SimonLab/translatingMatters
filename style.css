@@ -38,6 +38,7 @@ html {
   text-align:center;
 
   display: flex;
+  display: -webkit-flex;
   flex-flow: column nowrap;
   justify-content: space-around;
 }
