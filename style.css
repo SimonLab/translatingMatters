@@ -1,3 +1,4 @@
+/*RESET*/
 html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section {
     margin: 0;
     padding: 0;
@@ -15,15 +16,58 @@ header, footer, nav, section, article, hgroup, figure {
 legend {
     display: none;
 }
+/*END RESET*/
 
 .page{
   height: 100vh;
+}
+
+
+/*box-sizing*/
+html {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 #front-page{
   background-color: #8CE0D5;
   color: white;
   text-align:center;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+
+
+#title{
+  font-size: 2.7vh;
+}
+
+#subtitle{
+  font-size: 2.5vh;
+}
+#title img{
+  /*80% of the width of the logo. The width is 20% of vh 80% * 15 = 12 */
+  margin: 0 -20vh 0 0;
+}
+
+#logo{
+  height: 25vh;
+}
+
+#picture-profile img{
+  border-radius: 50%;
+  height: 25vh;
+
+}
+
+#picture-profile p{
+  color: #3BA394;
 }
 
 #specialities{
@@ -32,26 +76,4 @@ legend {
 
 #contact{
   background-color: blue;
-}
-
-#title{
-  font-size: 2.2vh;
-}
-
-#title img{
-  /*80% of the width of the logo. The width is 15% of vh 80% *15*/
-  margin: 0 -12vh 0 0;
-}
-
-#logo{
-  height: 15vh;
-}
-
-#picture-profile img{
-  border-radius: 50%;
-  height: 25vh;
-}
-
-#name-profile{
-  color: #3BA394;
 }
