@@ -69,12 +69,16 @@ html {
 
 #picture-profile p{
   color: #3BA394;
+  font-size: 2.4vh;
 }
 
 #specialities{
-  background-color: red;
+  background-color: #EBEBEB;
+  color: #717b7f;
+  text-align:center;
+
 }
 
 #contact{
-  background-color: blue;
+  background-color: #FFFFFF;
 }
