@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translating Matters</title>
+    <link rel="shortcut icon" href="./favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="./fontello/css/fontello.css">
   </head>
   <body>
 
@@ -30,24 +31,36 @@
     <div id='specialities' class='page'>
 
       <div id="titleSpecialities">
+        <h2>Services</h2>
         <p>Reliable, professional translations from French into English</p>
-        <p> Specialised in the translation of technical documents</p>
+        <p>Specialised in the translation of technical documents related to a wide range of fields</p>
       </div>
 
-      <div id="translationSpecialities">
-        <p>Translation and revision of texts</p>
-        <p>Aerospace | Electronic and mechanical engineering | Transport | Education | NGO</p>
-      </div>
+        <div class="item" id="translationSpecialities">
+          <i class="icon-language"></i>
+          <h3>Translation</h3>
+          <p>Aerospace | Electronic and mechanical engineering | Transport | Education | Tourism | NGO</p>
+        </div>
 
-      <div id="interpretingSpecialities">
-        
-      </div>
+        <div class="item" id="interpretingSpecialities">
+          <i class="icon-chat"></i>
+          <h3>Interpreting Services</h3>
+          <p>Simultaneous | Consecutive | Business | Liaison | Chuchotage</p>
+        </div>
 
     </div>
 
     <div id='contact' class='page'>
-      <h3>Contact</h3>
-    </div>
-
+      <h2>Contact</h2>
+      <div class="form" method="post">
+        <form action="" method="post" target="_blank">
+          <input id="contact-form-name" name="contact-form-name" type="text" placeholder="Name" class="input-one">
+          <input id="contact-form-email" type="email" name="EMAIL" placeholder="Email" class="input-one">
+          <textarea id="contact-form-message" type="text" placeholder="Message"></textarea>
+          <button onclick="contact_form.sendMail(); return false;" class="button-one" type"submit">Send</button>
+          <pre id="response"></pre>
+        </form>
+      </div>
+  </div>
   </body>
 </html>
