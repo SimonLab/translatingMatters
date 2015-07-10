@@ -7,16 +7,16 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "ddecf5ad7935e3fb1b70dac6ed00d06a",
-      "css": "language",
-      "code": 59393,
-      "src": "entypo"
+      "uid": "d35a1d35efeb784d1dc9ac18b9b6c2b6",
+      "css": "pencil-1",
+      "code": 59395,
+      "src": "fontawesome"
     },
     {
-      "uid": "21f6a88daf13c62e5a70f5ef6ad9e23f",
-      "css": "chat",
-      "code": 59392,
-      "src": "websymbols"
+      "uid": "dcedf50ab1ede3283d7a6c70e2fe32f3",
+      "css": "chat-1",
+      "code": 59393,
+      "src": "fontawesome"
     }
   ]
 }
