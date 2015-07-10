@@ -50,6 +50,10 @@ p{
   font-size: 2.5vh;
 }
 
+.icon{
+  font-size: 6vh;
+}
+
 #front-page{
   background-color: #8CE0D5;
   color: white;
