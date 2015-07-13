@@ -116,25 +116,63 @@ p{
 
 #contact h2{
   color: #FFFFFF;
+
 }
 
-.form{
-  background-color: #FFFFFF
+
+#contact-icon {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  color: white;
 }
 
-input, textarea {
-  padding: 5px 3px 0;
-  font-size: 15px;
-  width: 100%;
-  height: 50px;
+#contact-icon a{
+  color: #FFFFFF;
+  font-size: 6vh;
+}
+
+#contact-icon a:hover {
+  color: #8CE0D5;
+}
+
+
+#form {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 0 10vw;
+}
+
+
+input {
+  padding: 3vh;
   border: none;
   border-bottom: 1px solid black;
-  border-radius: 0;
+  font-size: 3vh;
 }
 
-.button-one {
+textarea{
+  height: 25vh;
+  resize: none;
+  padding: 3vh;
+  font-size: 3vh;
+  display: inline-block
+}
+
+
+.buttonEmail {
+  padding: 5vh 0;
   color: #fff;
   background-color: #717b7f;
   border: none;
-  border-radius: 40px;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.buttonEmail:hover {
+  color: #8CE0D5;
+  cursor: pointer;
 }

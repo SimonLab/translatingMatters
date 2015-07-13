@@ -54,16 +54,28 @@
     </div>
 
     <div id='contact' class='page'>
+
       <h2>Contact</h2>
-      <div class="form" method="post">
-        <form action="" method="post" target="_blank">
-          <input id="contact-form-name" name="contact-form-name" type="text" placeholder="Name" class="input-one">
-          <input id="contact-form-email" type="email" name="EMAIL" placeholder="Email" class="input-one">
-          <textarea id="contact-form-message" type="text" placeholder="Message"></textarea>
-          <button onclick="contact_form.sendMail(); return false;" class="button-one" type"submit">Send</button>
+
+      <div id='contact-icon'>
+        <a class="icon" href="https://twitter.com/LucyO86" target="_blank"><i class='icon-twitter'></i></a>
+        <a class="icon" href="http://translatingmatters.blogspot.co.uk/" target="_blank"><i class='icon-blogger-1'></i></a>
+        <a class="icon" href="mailto:oshealeo@gmail.com" target="_blank"><i class='icon-mail-alt'></i></a>
+        <a class="icon" href="https://www.google.co.uk/maps/place/Cheltenham" target="_blank"><i class='icon-location'></i></a>
+      </div>
+
+      <div  method="post">
+        <form  action="" method="post" target="_blank">
+          <div id="form">
+            <input id="contact-form-name" name="contact-form-name" type="text" placeholder="Name" class="input-one">
+            <input id="contact-form-email" type="email" name="EMAIL" placeholder="Email" class="input-one">
+            <textarea id="contact-form-message" type="text" placeholder="Message"></textarea>
+          </div>
+          <button  class="buttonEmail" type"submit">Send</button>
           <pre id="response"></pre>
         </form>
     </div>
+
   </div>
   </body>
 </html>
