@@ -111,14 +111,17 @@ p{
   display: flex;
   display: -webkit-flex;
   flex-flow: column nowrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #contact h2{
   color: #FFFFFF;
-
+  padding: 2vh;
 }
 
+#contact p {
+  color: #FFFFFF;
+}
 
 #contact-icon {
   display: flex;
@@ -138,7 +141,7 @@ p{
 }
 
 
-#form {
+/*#form {
   display: flex;
   display: -webkit-flex;
   flex-flow: column nowrap;
@@ -175,4 +178,4 @@ textarea{
 .buttonEmail:hover {
   color: #8CE0D5;
   cursor: pointer;
-}
+}*/
